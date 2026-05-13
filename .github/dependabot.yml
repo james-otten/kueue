@@ -10,7 +10,8 @@ updates:
       - "/cmd/kueueviz/backend"
       - "/cmd/experimental/kueue-populator"
     schedule:
-      interval: "weekly"
+      interval: "daily"
+    target-branch: james/test
     labels:
       - "ok-to-test"
       - "release-note-none"
